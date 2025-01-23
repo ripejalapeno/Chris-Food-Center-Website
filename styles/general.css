@@ -1,12 +1,12 @@
 body {
   position: relative;
-  width: 100%;
+  width: auto;
   box-sizing: border-box;
 
   font-family: "Lato", serif;
 
   padding-top: 60px;
-  width: auto;
+  
   overflow-x: hidden;
 }
 
@@ -22,12 +22,12 @@ button {
   --base-2: rgb(187, 166, 107);
   --base-3: rgb(158, 118, 32);
   --base-4: rgb(58, 51, 34);
-  --base-5: rgb(160, 130, 55);
 
-  /* Testing */
+  --base-5: rgb(160, 130, 55);
   --base-6: #F1E3C6;
   --base-7: #D4B597;
   --base-8: #C08B65;
+
   --base-9: #B66A4F;
   --base-10: #9B4138;
   --base-11: #7E3D3A;
@@ -37,29 +37,37 @@ button {
   --base-14: #D08357;
   --base-15: #C5A995;
   --base-16: #dda303;
+
   --base-17: #ca5d15;
   --base-18: #4B4945;
+  --base-19: #ca5d15;
+  --base-20: #4B4945;
 
   /* Accent Colors - buttons + highlights  */
   --accent-1: #c7991c;
   --accent-2: rgb(230, 149, 1);
   --accent-3: #daaf43;
   --accent-4: rgb(247, 193, 76);
-  --accent-5: rgb(238, 197, 14);
 
-  /* Testing */
+  --accent-5: rgb(238, 197, 14);
   --accent-6: #DAA520;
   --accent-7: #FFC107;
   --accent-8: #FFBF00;
+
   --accent-9: #FFDB58;
   --accent-10: #D4AF37;
   --accent-11: #F9C74F;
   --accent-12: #FFCB69;
+
   --accent-13: #d86100;
   --accent-14: #d84f00;
   --accent-15: #d83d00;
   --accent-16: #c49a11;
+
   --accent-17: #e4bd3c;
+  --accent-18: #e4bd3c;
+  --accent-19: #e4bd3c;
+  --accent-20: #e4bd3c;
 
 
   /* Soft Whites + Soft Blacks */
@@ -127,10 +135,6 @@ button {
     right: 1rem;
   }
 }
-
-
-
-
 
 .contact-button {
   display: flex;

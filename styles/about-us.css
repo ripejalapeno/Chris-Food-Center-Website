@@ -18,9 +18,8 @@ main div{
 }
 
 .display-img-box {
-  
   width: 75vw;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1/1;
   height: fit-content;
 }
 
@@ -29,4 +28,6 @@ main div{
   height: 100%;
   border-radius: 5px;
   box-shadow: 2px 4px 20px white;
+  object-fit: cover;
+  object-position: center;
 }
